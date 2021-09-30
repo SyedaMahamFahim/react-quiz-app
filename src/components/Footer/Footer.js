@@ -6,12 +6,12 @@ const Footer = () => {
         marginBottom: 10,
       }}
     >
-      Made with ♥ by{" "}
+      Made with ♥ by {" "}
       <a
-        href="https://www.youtube.com/roadsidecoder"
+        href="https://gist.github.com/SyedaMahamFahim"
         style={{ cursor: "pointer" }}
       >
-        Roadside Coder
+        Syeda Maham Fahim
       </a>
     </div>
   );

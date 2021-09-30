@@ -9,18 +9,20 @@ const Home = ({ name, setName, fetchQuestions }) => {
   const [category, setCategory] = useState("");
   const [difficulty, setDifficulty] = useState("");
   const [error, setError] = useState(false);
-
+ 
   const history = useHistory();
 
   const handleSubmit = () => {
     if (!category || !difficulty || !name) {
       setError(true);
+     
       return;
     } else {
       setError(false);
       fetchQuestions(category, difficulty);
       history.push("/quiz");
     }
+    
   };
 
   return (
