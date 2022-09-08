@@ -7,12 +7,11 @@ const Footer = () => {
       }}
     >
       Made with ♥ by{" "}
-      <a
-        href="https://www.youtube.com/roadsidecoder"
+     <p
         style={{ cursor: "pointer" }}
       >
-        Roadside Coder
-      </a>
+        Syeda Maham Fahim
+      </p>
     </div>
   );
 };
